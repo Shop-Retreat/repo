@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.shopretreat",
+    "module": "kcommander",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kcommander-1.0-SNAPSHOT.jar",
+          "url": "kcommander-1.0-SNAPSHOT.jar",
+          "size": 38220,
+          "sha512": "d212a40ef1a3c7c7503db36b829dafdf2ab0860c26d5f5895a63f78b4142b4e2c1be7e4acc4dca8313be4e5b9b88c72d8be49a83398c9cce9e7ab6da67544202",
+          "sha256": "2c5f4615f5f0a0655ba3f03553e711732d2b85a2963cdfcaf1df5ae8127fff53",
+          "sha1": "cf5d7278f41df2a6b4f983035a679a56366d023c",
+          "md5": "aef77e20367632cfc3c93b22b20064e0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.5.21"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "com.discord4j",
+          "module": "discord4j-core",
+          "version": {
+            "requires": "3.1.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactor",
+          "version": {
+            "requires": "1.5.1-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kcommander-1.0-SNAPSHOT.jar",
+          "url": "kcommander-1.0-SNAPSHOT.jar",
+          "size": 38220,
+          "sha512": "d212a40ef1a3c7c7503db36b829dafdf2ab0860c26d5f5895a63f78b4142b4e2c1be7e4acc4dca8313be4e5b9b88c72d8be49a83398c9cce9e7ab6da67544202",
+          "sha256": "2c5f4615f5f0a0655ba3f03553e711732d2b85a2963cdfcaf1df5ae8127fff53",
+          "sha1": "cf5d7278f41df2a6b4f983035a679a56366d023c",
+          "md5": "aef77e20367632cfc3c93b22b20064e0"
+        }
+      ]
+    }
+  ]
+}
